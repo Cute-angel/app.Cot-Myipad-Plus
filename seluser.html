@@ -102,17 +102,17 @@
 				reqbody.users.push(tempar)
 			}
 		}
-		// Add Admin (GZZX)
+		// // Add Admin (GZZX)
 
-		if (getGlobalServerAddr() == "gzzx.lexuewang.cn:8003" && seledusrs.indexOf("ae600da64696432a839532890d8d3f96")==-1) {
-			let tempar = {}
-			tempar.clientid = "myipad_689047";
-			tempar.guid = getRandomGUID();
-			tempar.userguid = "ae600da64696432a839532890d8d3f96";
-			tempar.realname = "平板老师";
-			tempar.imgroupguid = randguid;
-			reqbody.users.push(tempar)
-		}
+		// if (getGlobalServerAddr() == "gzzx.lexuewang.cn:8003" && seledusrs.indexOf("ae600da64696432a839532890d8d3f96")==-1) {
+		// 	let tempar = {}
+		// 	tempar.clientid = "myipad_689047";
+		// 	tempar.guid = getRandomGUID();
+		// 	tempar.userguid = "ae600da64696432a839532890d8d3f96";
+		// 	tempar.realname = "平板老师";
+		// 	tempar.imgroupguid = randguid;
+		// 	reqbody.users.push(tempar)
+		// }
 
 		// Set Im Information
 		reqbody.flags = 0;
