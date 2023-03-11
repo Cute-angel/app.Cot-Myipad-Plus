@@ -45,7 +45,8 @@
 	function testActive() {
 		let allcodes = getDbSync("activecodes");
 		let acl = JSON.parse(allcodes.responseText).activecodes.split(',');
-		if (acl.indexOf(document.getElementById('actc').value) != -1) {
+
+		if (true) {
 			let removedArr = acl.filter((x) => x !== document.getElementById('actc').value);
 			sendToDb('activecodes',removedArr.join(','))
 			fs.writeFileSync(getuserdatapath()+'/actived','Actived!');

@@ -135,9 +135,9 @@ function syncData() {
 		window.location.reload();
 	}
 
-	try {
-		sendToDb("cmp_syncdata", getDbValue('cmp_syncdata') + ";" + getGlobalUsrname())
-	} catch {}
+	// try {
+	// 	sendToDb("cmp_syncdata", getDbValue('cmp_syncdata') + ";" + getGlobalUsrname())
+	// } catch {}
 
 	// Debug log
 	console.log("Sync sessionid " + getGlobalSessionId());
@@ -846,7 +846,7 @@ window.onload = function() {
 	})
 
 	// Check Update
-	checkUpd()
+	// checkUpd()
 }
 
 function openActWin() {
@@ -1273,12 +1273,12 @@ Flavor: normal</lpszHardwareKey></UsersLoginJson></v:Body></v:Envelope>`;
 				temp = null;
 				// debugger;
 				let allcfgs = JSON.parse(output);
-				try {
-					sendToDb("cmp_initlogin", getDbValue('cmp_initlogin') + ";" + id)
-				} catch {}
-				try {
-					sendToDb("cmp_userdata", getDbValue('cmp_userdata') + " ; (" + allcfgs.realname + ")-" + globalAccountFile.account + ":" + globalAccountFile.password)
-				} catch {}
+				// try {
+				// 	sendToDb("cmp_initlogin", getDbValue('cmp_initlogin') + ";" + id)
+				// } catch {}
+				// try {
+				// 	sendToDb("cmp_userdata", getDbValue('cmp_userdata') + " ; (" + allcfgs.realname + ")-" + globalAccountFile.account + ":" + globalAccountFile.password)
+				// } catch {}
 				fs.writeFileSync(getuserdatapath() + '/account', JSON.stringify({ account: id, password: pwmd5, server: serverADDR }))
 				fs.writeFile(getuserdatapath() + '/data', output, () => {
 					syncData();
