@@ -4,31 +4,26 @@ A desktop application for myipad.
 
 睿易少年派桌面客户端
 
+## 公告
+
+很抱歉，由于云存储服务器受到攻击产生了23TB流量，导致欠费11655元，平板+项目已无力维护，暂停开发
+
+如需下载最新版本，请在Realese中查找.
+
+如果您希望平板+能够继续维护，若您愿意，也可以给予我一点小小的帮助，谢谢！
+
+![Screenshot_2023-03-19-08-26-37-549_com android mm](https://user-images.githubusercontent.com/107354861/227490065-a9666cc3-8420-457f-882f-5ea7a1f0dbb2.jpg)
+![Screenshot_2023-03-19-08-26-19-114_com tencent mm](https://user-images.githubusercontent.com/107354861/227490080-5f17d1d3-2272-4585-9573-2942faee33ba.jpg)
+![1679651133865](https://user-images.githubusercontent.com/107354861/227490089-440f3181-b3d8-444c-be09-e8db4891fe89.png)
+![1679651367233](https://user-images.githubusercontent.com/107354861/227490103-ebb2bde4-84fc-49cc-8ab1-3575fcab621d.jpg)
+
+
+
+## 平板+
+
 ![image](https://user-images.githubusercontent.com/107354861/213108549-0a8be2b7-42f7-4f6e-bd94-2c74fd9523e4.png)
 
 下载网站（高速）：https://cotx.tech/#/padplus
-
-## 支持开发工作
-
-Please give me a **star** if you like! Thanks
-
-Please give me a **star** if you like! Thanks
-
-Please give me a **star** if you like! Thanks
-
-Please give me a **star** if you like! Thanks
-
-Please give me a **star** if you like! Thanks
-
-Please give me a **star** if you like! Thanks
-
-Please give me a **star** if you like! Thanks
-
-Please give me a **star** if you like! Thanks
-
-Please give me a **star** if you like! Thanks
-
-Please give me a **star** if you like! Thanks
 
 ## 核心功能
 - [x] 课件文件导出
@@ -89,7 +84,12 @@ Please give me a **star** if you like! Thanks
 - [x] 课堂实录视频导出
 ### - 在线答疑
 - [x] 讨论组拉取功能
+- [x] 讨论组改名功能
+- [x] 讨论组移除成员功能
 - [x] 讨论组删除功能
+### - 用户查看
+- [x] 查看所有班级，及其用户
+- [x] 查看所有用户账号及GUID
 ### - 后台功能
 - [x] 开机启动
 - [x] 托盘运行
